@@ -10,8 +10,8 @@ Implementasi digital watermarking pada gambar grayscale menggunakan metode LSB (
 
 Project ini mengeksplorasi dua konsep utama:
 
-1. **LSB Watermarking** — menyisipkan watermark biner 64x64 ke bit paling rendah dari pixel gambar, sehingga perubahan tidak terlihat secara visual (perbedaan maksimal 1 nilai pixel).
-2. **Analisis Ketahanan terhadap JPEG** — mengukur seberapa tahan watermark setelah gambar dikompresi dengan berbagai Quality Factor (QF=10 hingga QF=100) menggunakan Bit Error Rate (BER).
+1. **LSB Watermarking** : menyisipkan watermark biner 64x64 ke bit paling rendah dari pixel gambar, sehingga perubahan tidak terlihat secara visual (perbedaan maksimal 1 nilai pixel).
+2. **Analisis Ketahanan terhadap JPEG** : mengukur seberapa tahan watermark setelah gambar dikompresi dengan berbagai Quality Factor (QF=10 hingga QF=100) menggunakan Bit Error Rate (BER).
 
 DCT (Discrete Cosine Transform) diimplementasikan secara manual tanpa library eksternal seperti `scipy`, menggunakan rumus matematis langsung dengan NumPy.
 
