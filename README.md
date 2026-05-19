@@ -49,8 +49,6 @@ DCT (Discrete Cosine Transform) diimplementasikan secara manual tanpa library ek
 - `matplotlib` — visualisasi dan plotting
 - `os` — operasi file
 
-> DCT dan IDCT diimplementasikan manual menggunakan rumus DCT-II tanpa `scipy.fftpack` atau library pemrosesan sinyal lainnya.
-
 ---
 
 ## Hasil
