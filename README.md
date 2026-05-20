@@ -6,7 +6,7 @@ NIM: 18224026
 
 Project ini mengeksplorasi teknik digital image watermarking metode Least Significant Bit (LSB) pada domain spasial, serta menguji ketahanan watermark terhadap kompresi JPEG dengan variasi Quality Factor (QF). Algoritma Discrete Cosine Transform (DCT) diimplementasikan secara manual menggunakan operasi matriks NumPy tanpa library SciPy.
 
-## Alur Kerja Jupyter Notebook per sek
+## Alur Kerja Jupyter Notebook per sel
 
 ### Step 1 dan 2: Memuat Library dan Membaca Gambar
 Program memuat library NumPy, Matplotlib, dan Pillow, lalu membaca file foto asli untuk dikonversi menjadi gambar skala keabuan (grayscale).
